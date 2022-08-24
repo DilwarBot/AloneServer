@@ -1,4 +1,4 @@
-name: Kaali-Linux
+name: kaali-linux
 
 on:
     push:
