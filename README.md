@@ -1,8 +1,8 @@
 <h2 align="center">
-    ── Marrk ──
+    ── Alone ──
 </h2>
 
-<p align="center"><a href="https://t.me/marrk85"><img src="https://te.legra.ph/file/249f0851f74f18047d500.jpg"></a></p>
+<p align="center"><a href="https://t.me/ALONE_WAS_BOT"><img src="https://telegra.ph//file/cd01a3c8be42783d5233f.jpg"></a></p>
 
 <h2 align="center">
     • ᴜɴʟɪᴍɪᴛᴇᴅ ᴅʏɴᴏs   
@@ -16,4 +16,4 @@
     • ʟɪғᴇ ᴛɪᴍᴇ ғʀᴇᴇ sᴇʀᴠᴇʀ
 </h2
 
-ᴄʀᴇᴀᴛᴇᴅ ʙʏ [Iron](https://t.me/marrk85)
+ᴄʀᴇᴀᴛᴇᴅ ʙʏ [Iron](https://t.me/ALONE_WAS_BOT)
