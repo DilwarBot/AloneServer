@@ -1,4 +1,4 @@
-name: Kaali-Linux
+name: Alone-Server
 
 on:
     push:
@@ -27,20 +27,20 @@ jobs:
        - name: cloning repository
          continue-on-error: true
          run: |
-           git clone https://${{ secrets.GIT_NAME }}:${{ secrets.GIT_TOKEN }}@${{ secrets.BOT_REPO }} kaali
-       - name: running kaali-linux server
+           git clone https://${{ secrets.GIT_NAME }}:${{ secrets.GIT_TOKEN }}@${{ secrets.BOT_REPO }} Alone
+       - name: running Alone server
          timeout-minutes: 350
          continue-on-error: true
          run: |
            cd kaali
-           docker build . -t kaali
+           docker build . -t Alone
            docker run kaali
-       - name: loop kaali-linux server
+       - name: loop Alone server
          continue-on-error: true
          run: |
               git clone https://github.com/${GITHUB_REPOSITORY} loop
               cd loop || exit 1
               echo $(date -u +%T%P) >> loop.txt
               git add loop.txt
-              git commit -m "Kaali-Linux : Loop $(date -u +%D-%T%P)"
-              git push -q https://${{ secrets.GIT_TOKEN }}@github.com/${GITHUB_REPOSITORY} HEAD:kaali-linux
+              git commit -m "Alone-Server : Loop $(date -u +%D-%T%P)"
+              git push -q https://${{ secrets.GIT_TOKEN }}@github.com/${GITHUB_REPOSITORY} HEAD: Alone-Server
